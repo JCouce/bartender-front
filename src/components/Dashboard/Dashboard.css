@@ -1,0 +1,39 @@
+.dashboard-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.dashboard-item {
+  font-size: 2rem;
+  background-color: #333;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dashboard-data {
+  gap: 0.5rem;
+  background-color: #999999;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.dashboard-servidos {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.dashboard-clients {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}

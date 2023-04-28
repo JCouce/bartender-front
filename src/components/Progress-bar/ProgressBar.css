@@ -1,0 +1,22 @@
+/* src/components/ProgressBar.css */
+.progressBar {
+  width: 100%;
+  background-color: #f3f3f3;
+  position: relative;
+  border: 5px solid #333;
+  height: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressBar__fill {
+  height: 2rem;
+  background-color: #333;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: width;
+}
