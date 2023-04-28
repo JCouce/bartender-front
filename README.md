@@ -2,27 +2,6 @@
 
 Este proyecto es la parte frontend de la aplicación Bartender Dashboard, que ayuda a los bármanes a llevar un registro de las bebidas servidas, los clientes atendidos y a gestionar las órdenes.
 
-## Estructura del proyecto
-
-El proyecto está estructurado de la siguiente manera:
-
-src/
-├───__tests__/
-├───components/
-│ ├───App/
-│ ├───Configuracion/
-│ ├───Dashboard/
-│ ├───Mesa/
-│ └───Progress-bar/
-├───context/
-├───types/
-├───index.css
-├───index.tsx
-├───logo.svg
-├───react-app-env.d.ts
-├───reportWebVitals.ts
-└───setupTests.ts
-
 
 ## Componentes principales
 
