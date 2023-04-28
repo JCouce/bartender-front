@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Bartender Dashboard Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es la parte frontend de la aplicación Bartender Dashboard, que ayuda a los bármanes a llevar un registro de las bebidas servidas, los clientes atendidos y a gestionar las órdenes.
 
-## Available Scripts
+## Estructura del proyecto
 
-In the project directory, you can run:
+El proyecto está estructurado de la siguiente manera:
 
-### `npm start`
+src/
+├───__tests__/
+├───components/
+│ ├───App/
+│ ├───Configuracion/
+│ ├───Dashboard/
+│ ├───Mesa/
+│ └───Progress-bar/
+├───context/
+├───types/
+├───index.css
+├───index.tsx
+├───logo.svg
+├───react-app-env.d.ts
+├───reportWebVitals.ts
+└───setupTests.ts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Componentes principales
 
-### `npm test`
+- `App`: El componente principal y punto de entrada de la aplicación. Este componente organiza los componentes principales en un contenedor y los envuelve con el componente `AppProvider` para acceder al contexto de la aplicación.
+- `Dashboard`: Muestra información sobre el estado del barman y las bebidas servidas.
+- `Mesa`: Representa una vista de las mesas del bar y las órdenes asociadas con ellas.
+- `Configuracion`: Permite al usuario modificar la configuración de la aplicación, como el tiempo de preparación de las bebidas y el número máximo de elementos en la lista de bebidas servidas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cómo ejecutar el proyecto
 
-### `npm run build`
+1. Asegúrate de tener Node.js y npm instalados en tu sistema.
+2. Clona este repositorio o descarga el código fuente.
+3. Ejecuta `npm install` en la carpeta del proyecto para instalar todas las dependencias.
+4. Ejecuta `npm start` para iniciar el servidor de desarrollo. La aplicación se abrirá automáticamente en tu navegador web en `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cómo ejecutar las pruebas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ejecuta `npm test` en la carpeta del proyecto para ejecutar las pruebas de la aplicación.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Cómo construir el proyecto para producción
 
-### `npm run eject`
+Ejecuta `npm run build` en la carpeta del proyecto. Esto creará una versión optimizada de la aplicación en la carpeta `build`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Licencia
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este proyecto se encuentra bajo la licencia ISC.
